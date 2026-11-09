@@ -1,0 +1,15 @@
+[project]
+name = "visionguard"
+version = "0.1.0"
+description = "VisionGuard: Class-agnostic industrial visual anomaly detection"
+authors = [
+    { name = "Rohith Gowda R", email = "risedroyalruler@gmail.com" }
+]
+license = { text = "Proprietary - All Rights Reserved" }
+requires-python = ">=3.11"
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["utils", "tracks/industrial"]
