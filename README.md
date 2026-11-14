@@ -1,9 +1,15 @@
+<div align="center">
+
 # VisionGuard
 
 This repository contains the code for VisionGuard.
 
+<img src="assets/fig-1.png" width="100%">
+
 VisionGuard is a class-agnostic visual anomaly detection model trained using only anomaly-free images.
 Built with DINOv3.
+
+</div>
 
 ## Reproduce our results
 
